@@ -3,7 +3,7 @@ import React from "react";
 function PlantCard() {
   return (
     <li className="card" data-testid="plant-item">
-      <img src={"https://via.placeholder.com/400"} alt={"plant name"} />
+      <img className="ble" src={"https://via.placeholder.com/400"} alt={"plant name"} />
       <h4>{"plant name"}</h4>
       <p>Price: {"plant price"}</p>
       {true ? (
@@ -16,3 +16,4 @@ function PlantCard() {
 }
 
 export default PlantCard;
+plantcard
